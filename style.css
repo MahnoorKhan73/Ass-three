@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+.foreground_color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: burlywood;
+}
+h2 {
+  color: brown;
+}
+h3 {
+  color: #a36b17;
+}
+h4 {
+  color: rgb(210, 105, 30);
+}
+.opacity{
+  padding: 20px;
+}
+.parent {
+  position: relative;
+  width: 40%;
+  height: 20vh;
+  background-color: rgb(220, 20, 60);
+}
+.gray{
+  position: absolute;
+  right:0;
+  opacity: 0.2;
+  width: 50%;
+  height: 25vh;
+  background-color: rgb(0, 0, 0);
+}
+.child{
+  margin: 50px;
+  position: relative;
+  width: 40%;
+  height: 20vh;
+  background:hsl(219, 79%, 66%);
+}
+.black{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 25vh;
+  background-color: hwb(240 0% 0%);
+}
